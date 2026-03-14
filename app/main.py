@@ -103,6 +103,3 @@ def battle(knights_config: dict) -> dict:
     arthur.fight(red_knight)
 
     return {knight.name: knight.hp for knight in knight_list}
-
-
-print(battle(KNIGHTS))
